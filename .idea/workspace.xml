@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7a1d51c-96c0-41a1-88ba-7913c68f4e4e" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-customer/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
+    <ignored path="$PROJECT_DIR$/springboott-dubbo-server/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-dubbo-client/target/" />
+    <ignored path="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/target/" />
+    <ignored path="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-client/target/" />
+    <ignored path="$PROJECT_DIR$/../zookeeper-dubbo/demo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dubbo-customer/src/main/java/com/insigma/dubbo/customer/service/imp/ShowMsgServiceImp.java" />
+        <option value="$PROJECT_DIR$/springboott-dubbo-server/src/main/java/com/insigma/springboottdubboserver/service/dubboservice/CityDubboService.java" />
+        <option value="$PROJECT_DIR$/springboott-dubbo-server/src/main/java/com/insigma/springboottdubboserver/domain/City.java" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-client/src/main/java/com/springboot/dubbo/springbootdubboclient/domain/City.java" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-client/src/main/java/com/springboot/dubbo/springbootdubboclient/service/dubboservice/CityDubboService.java" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-client/src/main/java/com/springboot/dubbo/springbootdubboclient/service/dubboservice/CityDubboCustomerService.java" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-client/src/test/java/com/springboot/dubbo/springbootdubboclient/service/dubboservice/imp/CityDubboCustomerServicImpTest.java" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-client/src/main/java/com/springboot/dubbo/springbootdubboclient/service/dubboservice/imp/CityDubboCustomerServicImp.java" />
+        <option value="$PROJECT_DIR$/springboott-dubbo-server/src/main/java/com/insigma/springboottdubboserver/SpringboottDubboServerApplication.java" />
+        <option value="$PROJECT_DIR$/springboott-dubbo-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-client/pom.xml" />
+        <option value="$PROJECT_DIR$/springboott-dubbo-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboott-dubbo-server/src/main/java/com/insigma/springboottdubboserver/service/dubboservice/imp/CityDubboServiceImp.java" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-client/src/main/java/com/springboot/dubbo/springbootdubboclient/SpringbootDubboClientApplication.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/springboot/dubboprovider/service/api/DemoService.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/springboot/dubboprovider/service/api/imp/DefaultDemoService.java" />
+        <option value="$PROJECT_DIR$/dubbo-customer/src/main/java/com/insigma/dubbocustomer/DemoService.java" />
+        <option value="$PROJECT_DIR$/dubbo-customer/src/main/java/com/insigma/dubbocustomer/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/dubbo-customer/src/main/java/com/insigma/dubbocustomer/DubboCustomerApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-customer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dubbo-customer/src/main/java/DemoConsumerController.java" />
+        <option value="$PROJECT_DIR$/dubbo-customer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-customer/src/main/java/com/alibaba/boot/dubbo/demo/consumer/controller/DemoConsumerController.java" />
+        <option value="$PROJECT_DIR$/dubbo-customer/src/main/java/DubboConsumerDemo.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/DefaultDemoService.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/DubboProviderDemo.java" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-provider/src/main/java/com/alibaba/boot/dubbo/demo/provider/service/spi/MsgService.java" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-api/src/main/java/com/zookeeper/dubbo/api/MsgService.java" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-api/src/main/java/com/zookeeper/dubbo/api/com/zookeeper/bean/UserBean.java" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-api/src/main/java/bean/UserBean.java" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-api/src/main/java/com/zookeeper/dubbo/api/UserService.java" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/src/main/java/com/zookeeper/dubboserver/spi/MsgServiceImp.java" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/src/main/java/com/zookeeper/dubboserver/service/UserService.java" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/src/main/java/com/zookeeper/dubboserver/service/imp/UserServiceImp.java" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/src/main/java/com/zookeeper/dubboserver/spi/UserServiceSpi.java" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-client/src/main/java/com/zookeeper/dubboclient/controller/MsgController.java" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-client/src/main/java/com/zookeeper/dubboclient/controller/UserContrller.java" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-api/src/main/java/com/zookeeper/dubbo/bea/UserBean.java" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/src/main/java/com/zookeeper/dubboserver/mapper/UserMapper.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$MAVEN_REPOSITORY$/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zookeeper-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zookeeper-dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/dubbo-provider/src/main/java" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.springboot.dubbo.springbootdubboclient.service.dubboservice.imp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.insigma.dubbocustomer" />
+      <recent name="com.springboot.dubbo.springbootdubboclient.domain" />
+      <recent name="com.springboot.dubbo.springbootdubboclient.service.dubboservice" />
+      <recent name="com.insigma.dubbo.customer.service.imp" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\zookeeper-dubbo\dubbo-customer\src\main\java" />
+      <recent name="F:\zookeeper-dubbo\dubbo-api\src\main\java" />
+      <recent name="F:\zookeeper-dubbo\dubbo-provider\src\main\java" />
+      <recent name="F:\zookeeper-dubbo\dubbo-provider\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DubboServerApplication">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CityDubboCustomerServicImpTest.showCity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-dubbo-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.dubbo.springbootdubboclient.service.dubboservice.imp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.springboot.dubbo.springbootdubboclient.service.dubboservice.imp" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.dubbo.springbootdubboclient.service.dubboservice.imp.CityDubboCustomerServicImpTest" />
+      <option name="METHOD_NAME" value="showCity" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="dubbo-api" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="DubboClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zookeeper.dubboclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zookeeper.dubboclient.DubboClientApplication" />
+    </configuration>
+    <configuration name="DubboConsumerDemo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-customer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alibaba.boot.dubbo.demo.consumer.bootstrap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.boot.dubbo.demo.consumer.bootstrap.DubboConsumerDemo" />
+    </configuration>
+    <configuration name="DubboCustomerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insigma.dubbocustomer.DubboCustomerApplication" />
+    </configuration>
+    <configuration name="DubboCustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insigma.dubbo.customer.DubboCustomerApplication" />
+    </configuration>
+    <configuration name="DubboProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insigma.dubbo.provider.DubboProviderApplication" />
+    </configuration>
+    <configuration name="DubboProviderApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.dubboprovider.DubboProviderApplication" />
+    </configuration>
+    <configuration name="DubboProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insigma.zookeeper.dubbo.DubboProviderApplication" />
+    </configuration>
+    <configuration name="DubboProviderDemo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alibaba.boot.dubbo.demo.provider.bootstrap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.boot.dubbo.demo.provider.bootstrap.DubboProviderDemo" />
+    </configuration>
+    <configuration name="DubboServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zookeeper.dubboserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zookeeper.dubboserver.DubboServerApplication" />
+    </configuration>
+    <configuration name="SpringbootDubboClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-dubbo-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.dubbo.springbootdubboclient.SpringbootDubboClientApplication" />
+    </configuration>
+    <configuration name="SpringboottDubboServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboott-dubbo-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insigma.springboottdubboserver.SpringboottDubboServerApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DubboCustomerApplication" />
+      <item itemvalue="Spring Boot.DubboProviderApplication" />
+      <item itemvalue="Spring Boot.DubboProviderApplication (1)" />
+      <item itemvalue="Spring Boot.SpringboottDubboServerApplication" />
+      <item itemvalue="Spring Boot.SpringbootDubboClientApplication" />
+      <item itemvalue="Spring Boot.DubboProviderApplication (2)" />
+      <item itemvalue="Spring Boot.DubboCustomerApplication (1)" />
+      <item itemvalue="JUnit.CityDubboCustomerServicImpTest.showCity" />
+      <item itemvalue="Spring Boot.DubboProviderDemo" />
+      <item itemvalue="Spring Boot.DubboConsumerDemo" />
+      <item itemvalue="Spring Boot.DubboServerApplication" />
+      <item itemvalue="Spring Boot.DubboClientApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DubboServerApplication" />
+        <item itemvalue="Spring Boot.DubboClientApplication" />
+        <item itemvalue="Spring Boot.DubboProviderDemo" />
+        <item itemvalue="Spring Boot.DubboConsumerDemo" />
+        <item itemvalue="JUnit.CityDubboCustomerServicImpTest.showCity" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7a1d51c-96c0-41a1-88ba-7913c68f4e4e" name="Default" comment="" />
+      <created>1537429117071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537429117071</updated>
+      <workItem from="1537429122264" duration="8973000" />
+      <workItem from="1537492998541" duration="12482000" />
+      <workItem from="1538119667813" duration="16321000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CityDubboCustomerServicImpTest_showCity - 2018.09.21 at 10h 40m 53s.xml">
+      <configuration name="CityDubboCustomerServicImpTest.showCity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CityDubboCustomerServicImpTest_showCity - 2018.09.21 at 11h 00m 39s.xml">
+      <configuration name="CityDubboCustomerServicImpTest.showCity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CityDubboCustomerServicImpTest_showCity - 2018.09.21 at 11h 19m 51s.xml">
+      <configuration name="CityDubboCustomerServicImpTest.showCity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CityDubboCustomerServicImpTest_showCity - 2018.09.21 at 11h 20m 46s.xml">
+      <configuration name="CityDubboCustomerServicImpTest.showCity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CityDubboCustomerServicImpTest_showCity1 - 2018.09.21 at 11h 21m 13s.xml">
+      <configuration name="CityDubboCustomerServicImpTest.showCity1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CityDubboCustomerServicImpTest_showCity1 - 2018.09.21 at 11h 23m 54s.xml">
+      <configuration name="CityDubboCustomerServicImpTest.showCity1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CityDubboCustomerServicImpTest_showCity - 2018.09.21 at 11h 34m 39s.xml">
+      <configuration name="CityDubboCustomerServicImpTest.showCity" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="37776000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3987034" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32901135" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32901135" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40356565" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32901135" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25189108" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dubbo-customer/src/main/java/com/insigma/dubbo/customer/service/imp/ShowMsgServiceImp.java</url>
+          <line>20</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/insigma/dubbo/provider/service/imp/ShowMsgServiceImp.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/springboot-dubbo-client/src/main/java/com/springboot/dubbo/springbootdubboclient/service/dubboservice/CityDubboService.java" />
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/springboot-dubbo-client/src/main/java/com/springboot/dubbo/springbootdubboclient/service/dubboservice/CityDubboCustomerService.java" />
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/springboot-dubbo-client/src/test/java/com/springboot/dubbo/springbootdubboclient/service/dubboservice/imp/CityDubboCustomerServicImpTest.java" />
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/springboot-dubbo-client/src/main/java/com/springboot/dubbo/springbootdubboclient/service/dubboservice/imp/CityDubboCustomerServicImp.java" />
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/springboott-dubbo-server/src/main/java/com/insigma/springboottdubboserver/SpringboottDubboServerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/springboott-dubbo-server/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/springboot-dubbo-client/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/springboott-dubbo-server/src/main/java/com/insigma/springboottdubboserver/service/dubboservice/imp/CityDubboServiceImp.java" />
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/springboot-dubbo-client/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/springboot-dubbo-client/src/main/java/com/springboot/dubbo/springbootdubboclient/SpringbootDubboClientApplication.java" />
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/springboott-dubbo-server/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-provider/src/main/java/com/springboot/dubboprovider/service/api/DemoService.java" />
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-provider/src/main/java/com/springboot/dubboprovider/service/api/imp/DefaultDemoService.java" />
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-customer/src/main/java/com/insigma/dubbocustomer/service/dubboapi/DemoService.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/config/spring/beans/factory/annotation/ReferenceAnnotationBeanPostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-customer/src/main/java/com/insigma/dubbocustomer/DubboCustomerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-customer/src/main/java/com/insigma/dubbocustomer/controller/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-provider/src/main/java/com/alibaba/boot/dubbo/demo/consumer/DemoService.java" />
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-customer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-provider/src/main/java/DubboProviderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#1504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-api/src/test/java/com/DubboApiApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-customer/src/main/java/com/alibaba/boot/dubbo/demo/consumer/bootstrap/DubboConsumerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-customer/src/main/java/com/alibaba/boot/dubbo/demo/consumer/controller/DemoConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-api/src/main/java/com/alibaba/boot/dubbo/demo/consumer/DemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-provider/src/main/java/com/alibaba/boot/dubbo/demo/provider/service/spi/MsgService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-client/src/main/java/com/zookeeper/dubboclient/service/MsgService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-customer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" selection-start-line="31" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-provider/src/main/java/com/alibaba/boot/dubbo/demo/provider/service/DefaultDemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#1460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/src/main/java/com/zookeeper/dubboserver/DubboServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-client/src/main/java/com/zookeeper/dubboclient/DubboClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-api/src/main/java/bean/UserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="31" selection-start-line="31" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/src/main/java/com/zookeeper/dubboserver/service/imp/UserServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/src/main/java/com/zookeeper/dubboserver/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/src/main/java/com/zookeeper/dubboserver/spi/UserServiceSpi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/src/main/java/com/zookeeper/dubboserver/spi/MsgServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-api/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-api/src/main/java/com/zookeeper/dubbo/api/MsgServiceApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-api/src/main/java/com/zookeeper/dubbo/api/UserServiceApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-client/src/main/java/com/zookeeper/dubboclient/controller/MsgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-api/src/main/java/com/zookeeper/dubbo/bea/UserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/src/main/java/com/zookeeper/dubboserver/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeper-dubbo/dubbo-client/src/main/java/com/zookeeper/dubboclient/controller/UserContrller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>dubbo-client</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
