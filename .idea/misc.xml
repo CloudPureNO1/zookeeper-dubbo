@@ -8,14 +8,14 @@
         <option value="$PROJECT_DIR$/dubbo-customer/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-api/pom.xml" />
-        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/pom.xml" />
-        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-client/pom.xml" />
-        <option value="$PROJECT_DIR$/../zookeeper-dubbo/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-customer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/dubbo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../zookeeper-dubbo/dubbo-server/pom.xml" />
       </set>
     </option>
   </component>

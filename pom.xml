@@ -11,11 +11,7 @@
 
     <modules>
         <module>dubbo-api</module>
-        <module>dubbo-server</module>
-        <module>dubbo-client</module>
+        <module>dubbo-provider</module>
+        <module>dubbo-customer</module>
     </modules>
-
-
-
-
 </project>
